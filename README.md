@@ -9,7 +9,13 @@ pip install bioparse
 ## Commands
 
 ### FASTQ Statistics
+```
 bioparse fastq-stats sample.fastq
 
+```
+
 ### VCF Filtering
+```
 bioparse vcf-filter sample.vcf --min-qual 30
+
+```
