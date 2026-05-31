@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bioparse"
+version = "0.1.1"
+description = "A command-line toolkit for parsing and analyzing bioinformatics file formats"
+readme = "README.md"
+dependencies = ["typer"]
+license = {text = "MIT"}
+
+[project.scripts]
+bioparse = "biokit.main:app"
