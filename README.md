@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/bioparse.svg)](https://pypi.org/project/bioparse/)
+
 # bioparse
 
 A lightweight command-line toolkit for bioinformatics file parsing and analysis.
